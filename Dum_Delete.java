@@ -1,55 +1,11 @@
 package Dummy;
 
 public class Dum_Delete {
-	/*
-	 * student class id and name
-	 * 5 max 
-	 * store information in array 
-	 * 
-	 * create 
-	 * display
-	 * update
-	 * delete 
-	 * exit
-	 * 
-	 * 
-	 */
 	
-	/*
-	 * initialize object in student class 
-	 * 
-	 * create - id name - duplicate + 5 max 
-	 * display 
-	 * update - id search
-	 * delte - id search
-	 * 
-	 * 
-	 */
+	string array 에서 null value 를 맨뒤로 보내는 연습 
+	index 를 먼저 찾고 
+	뒤로 보낸다 
 	
-	/*
-	 * student array size 5
-	* while true
-	* print create display update delete exit
-	* switch 
-	* create - create()
-	 * 
-	 * 
-	 * create method takes in and return array 
-	 * problem: don't know which index is empty - static field - studentcount
-	 * studentcount = 0 .getnameandid method - in this method duplicate inspection 
-	 * if studentcount == 5 print out of bounds return array 
-	 * else - continue
-	 * 
-	 * 
-	 * delete method - problem: deleted index is in the middle, how to create new in that position 
-	 * static deletedIndex - what if deleted multiple id? 
-	 * array sort 
-	 * 
-	 * array sort method takes in array and return array
-	 * 
-	 * 
-	 * 
-	 */
 	public static void main(String[] args) {
 		
 		String[] my = {"j", "k", null ,"l", "m"};
