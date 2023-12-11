@@ -1,5 +1,6 @@
 package SecondPackage;
-
+//String builder mutable
+//convert into string by using toString()
 public class T {
 
 	public static void main(String[] args) {
