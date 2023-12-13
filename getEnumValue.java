@@ -13,6 +13,10 @@ public class WorkerDatabase {
 		}while(!isValidEnum(input));
 		ind = Industry.valueOf(input);
 		System.out.println(ind);
+
+		// 두가지 방법 
+		// condition 을 제대로된값 받았어? yes no 
+		// ind 가 null 이야? yes no 
 		
 		Industry ind = null;
 		while(ind == null) {
