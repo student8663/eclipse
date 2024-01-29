@@ -14,7 +14,7 @@ public class Main {
        // 3 ~ 8 inclusive
        Random random = new Random();
        for(int i = 0; i < 5; i++) {
-           int ran = random.nextInt(5) + 3;
+           int ran = random.nextInt(6) + 3;
            System.out.println(ran);
        }
     }
